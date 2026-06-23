@@ -62,7 +62,7 @@ export default function Home() {
       );
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/analyze",
+        "https://talentlens-backend-rovi.onrender.com/analyze",
         formData
       );
 
